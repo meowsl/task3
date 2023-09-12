@@ -7,4 +7,4 @@ JOIN disciplines ON schedule_stud.discip_id = disciplines.discip_id
 JOIN lesson_type ON schedule_stud.less_id = lesson_type.less_id
 JOIN auditors ON schedule_stud.audit_id = auditors.audit_id
 JOIN teachers ON schedule_stud.teach_id = teachers.teach_id
-WHERE stud_groups.group_id = 5d
+WHERE stud_groups.group_id = 5;
